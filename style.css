@@ -1,0 +1,552 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Medium.eot');
+    src: url('fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-Medium.woff2') format('woff2'),
+        url('fonts/Poppins-Medium.woff') format('woff'),
+        url('fonts/Poppins-Medium.ttf') format('truetype'),
+        url('fonts/Poppins-Medium.svg#Poppins-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.virusbg{
+    background: url(photos/23916.jpg) no-repeat ;
+    background-size: cover;
+    height: 1000px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 35px; */
+}
+.headernav{
+    background-color: #ed242e;
+    width: 90%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.headernav ul{
+    display: flex;
+}
+
+.headernav ul li{
+    list-style: none;
+    margin: 0 50px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.headernav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.headersearch{
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    height: 90px;
+    background-color: #00132b;
+}
+.headersearch svg{
+    width: 35px;
+}
+
+.headeruser{
+    display: flex;
+    justify-content: center;
+    width:5%;
+    height: 90px;
+    background-color: #00132b;
+
+}
+.headeruser svg{
+    width: 35px;
+}
+
+.main1{
+    margin: 240px 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    width: 580px;
+    height: 300px;
+    
+}
+
+.main1 h1{
+    color: #fff;
+    font-size: 90px;
+    font-family: 'Poppins';
+    font-weight: 900;
+}
+.main1info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.maininfosbuttons{
+    display: flex;
+    margin-top: 85px;
+    font-family: 'Poppins';
+    text-transform: capitalize;
+    
+}
+ .redbtn a{
+   text-decoration: none; 
+   color: #fff;
+    font-size: 17px;
+    background-color: #ed242e;
+    padding: 20px 60px;
+    
+}
+
+.whitebtn a{
+    text-decoration: none; 
+    color: #00132b;
+    font-size: 17px;
+    background-color: #fff;
+    padding: 20px 60px;
+    margin-left: 15px;
+    
+    
+}
+
+.headernav img {
+    position: absolute;
+    top: 55px;
+}
+
+.main2{
+    background-color: #fff;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+    margin-top: -150px;
+    margin-left:  165px;
+    margin-right:  165px;
+}
+.main2left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    width: 50%;
+}
+.main2left h2{
+    font-size: 45px;
+    font-family: 'Poppins';
+    text-transform: capitalize;
+}
+.main2left p{
+    font-size: 17px;
+    font-family: 'Poppins';
+    text-transform: capitalize;
+}
+
+.main2left a{
+    width: 150px;
+    text-align: center;
+    text-decoration: none; 
+    color:#fff ;
+    font-size: 17px;
+    background-color:#00132b;
+    padding: 30px 75px;
+    font-size: 17px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+
+.main3{
+    background-color: #fefefd;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top:150px ;
+    margin-left:  165px;
+    margin-right:  165px;
+}
+
+.main3left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 60px;
+}
+
+.main3left h2{
+    font-size: 45px;
+    font-family: 'Poppins';
+    text-transform: capitalize;
+}
+.main3left p{
+    font-size: 17px;
+    font-family: 'Poppins';
+    text-transform: capitalize;
+}
+
+.main3left a{
+    width: 150px;
+    text-align: center;
+    text-decoration: none; 
+    color:#fff ;
+    font-size: 17px;
+    background-color:#00132b;
+    padding: 30px 75px;
+    font-size: 17px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+
+.protectyourself{
+    margin-top:100px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.protectyourself h2{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+}
+
+.protectyourself span{
+    font-size: 17px;
+    font-family: 'Poppins';
+    text-transform: capitalize;
+}
+.main4{
+    margin-top: 70px;
+    width: 80%;
+    background-image: url(photos/coronavirus-4957673_1920.jpg);
+    border-radius: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.cardsmain{
+    padding: 150px 200px 150px 200px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-family: 'Poppins';
+}
+
+.main4carditem{
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.main4cardbtns a{
+    text-decoration: none;
+    color:#fff ;
+    background-color: #00132b;
+    padding: 20px 20px;
+    margin-left: 200px;
+    text-wrap: nowrap;
+
+}
+
+.main4cardbtns a:hover{
+    text-decoration: none;
+    color:#fff ;
+    background-color: #ed242e;
+    padding: 20px 20px;
+
+    margin-left: 200px;
+
+}
+.btn2:active{
+    text-decoration: none;
+    color:#fff ;
+    background-color: #ed242e;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+.main4cardbtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 120px;
+    right: 90px;
+    text-transform: uppercase;
+}
+
+.main4carditem p{
+    font-size: 17px;
+    margin-top: 30px;
+
+}
+
+.main4carditem strong{
+    text-transform: capitalize;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 900;
+    
+}
+
+.main4carditem img{
+    width: 50px;
+}
+
+.coronaviruscases{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.coronaviruscases h2{
+    margin-top:50px;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+
+.coronaviruscases p{
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+.main5{
+    margin-top: 100px;
+    font-family: 'Poppins';
+    background-color: #ececec;
+    padding: 20px 20px;
+    margin-bottom: 100px;
+}
+.main5cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main5carditem{
+    padding: 20px 20px;
+   background-color: #fefefd;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    margin-left: 40px;
+    box-shadow: 0px 0px 32px -2px rgba(0,0,0,0.55);
+    transition: all 0.5s ease-in-out;
+    
+}
+.main5carditem a{
+    margin-top: -130px;
+    text-decoration: none;
+    color:#fff ;
+    background-color: #ed242e;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    
+   
+}
+.main5carditem h3{
+    font-size:30px ;
+}
+.main5carditem p{
+    font-size: 17px ;
+}
+.main5text{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.greencorona{
+    margin-bottom: -55px;
+}
+
+
+.main5carditem:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.main6{
+    font-family: 'Poppins';
+    background-image: url(photos/virus\ copy\ 17.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main6full{
+    max-width: 1200px;
+    margin: auto;
+   text-align: center;
+}
+.doctorsmain{
+    display: flex;
+    margin-bottom: 115px;
+    gap: 26px;
+}
+
+.doctors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fefefd;
+    margin-left: 20px;
+    box-shadow: 0px 0px 32px -2px rgba(0,0,0,0.45);
+    width: 450px;
+    padding:20px 10px;
+    padding-bottom: 30px;
+}
+
+
+.doctors strong{
+    font-size: 20px;
+    font-weight: 800px;
+}
+
+.doctors p{
+    font-size: 17px;
+}
+.doctors img{
+    margin-top: -90px;
+}
+.main6 h2{
+    margin-bottom: 100px;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+}
+    
+.main6full strong{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+}
+
+.main7{
+    margin-top: 50px;
+    background-image: url(photos/bg.jpg);
+    width: 100%;
+    padding: 50px 0px;
+
+}
+.main7full form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main7full input{
+    background-color: transparent;
+    width:1000px;
+    height: 50px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.main7full form input{
+    color: #fff;
+    padding-left: 30px;
+    font-family: 'Poppins';
+}
+.main7full form input::placeholder {
+    color: #f3f1f1;
+}
+.main7full button{
+   padding: 20px 60px ;
+    background-color: #0a264a;
+    color: #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    margin-top: 30px;
+}
+
+.main8{
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    padding: 100px 0px ;
+}
+
+.main8 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main8 ul li{
+    list-style: none;
+}
+.main8 a{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    color: #fefefd; 
+    text-decoration: none;
+}
+
+.main8 h3{
+    font-size: 24px; 
+    text-transform: uppercase;
+    color: #fefefd; 
+    margin-bottom: 20px;
+}
+.main8 p{
+    color: #fefefd; 
+}
+
+.main8full{
+    display: flex;
+    flex-direction: row;
+    width: 1400px;
+    justify-content:center;
+}
+.lists{
+    margin-left: 40px;
+    width: 25%;
+}
+.copyright{
+    margin-top: 50px;
+    font-family: 'Poppins';
+    background-color: #111111;
+    color: #fefefd;
+    display: flex;
+    font-size: 17px;
+    
+
+ 
+}
+
